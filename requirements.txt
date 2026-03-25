@@ -1,0 +1,15 @@
+# Instale o PyTorch ANTES deste arquivo (veja README). Sem isso, o pip pode falhar ao
+# resolver torch junto com transformers/trl (ResolutionImpossible / "no matching distributions").
+
+# Faixas mais amplas para o resolvedor achar uma combinação compatível com torch 2.1+ no macOS.
+numpy>=1.24.0,<2.0.0
+transformers>=4.41.0,<4.49.0
+datasets>=2.18.0,<3.3.0
+accelerate>=0.28.0,<1.3.0
+peft>=0.11.0,<0.15.0
+trl>=0.10.0,<0.14.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+huggingface_hub>=0.23.0
+safetensors>=0.4.0
+rouge-score>=0.1.2

@@ -1,0 +1,10 @@
+# Etapa 2 — Assistente com LangChain (instale após torch + requirements.txt)
+# pip install -r requirements.txt -c constraints-torch.txt  # se usar constraints
+# pip install -r requirements-langchain.txt
+
+langchain>=0.3.14
+langchain-core>=0.3.14
+langchain-community>=0.3.14
+langchain-huggingface>=0.1.2
+langgraph>=0.2.0
+sqlalchemy>=2.0.0
